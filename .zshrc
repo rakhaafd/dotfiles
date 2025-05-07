@@ -26,6 +26,7 @@ alias ipy="ipython3"
 alias bsp="pip install --break-system-packages"
 alias pyex="python3 /mnt/d/ctf/pyinstxtractor.py"
 alias pt="ptpython"
+alias binwalk='sudo binwalk "$@" --run-as=root'
 
 function get() {
 # Cek apakah URL diberikan sebagai argumen
